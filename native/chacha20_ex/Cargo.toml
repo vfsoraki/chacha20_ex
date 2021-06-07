@@ -1,0 +1,15 @@
+[package]
+name = "chacha20_ex"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "chacha20_ex"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.21.1"
+lazy_static = "1.0"
+chacha20 = "0.7.1"
